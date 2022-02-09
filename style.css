@@ -1,0 +1,103 @@
+html{
+    width: 600px;
+    height: 827px;
+    margin:0 auto;
+}
+body{
+    position:relative;
+    background-image:url('./images/body-background.jpg');
+    background-repeat: no-repeat;
+    background-size: 600px 827px;
+    font-family: "D-Din";
+    font-size: 14px;
+    color: white;
+    padding:0px;
+}
+
+.hero{
+    padding: 5px;
+}
+
+.hero-image{
+    margin:0 auto;
+    object-fit: cover;
+}
+
+.program{
+    margin:0 auto;
+    width:536px;
+    background-color: rgba( 004, 040, 053, 40%);
+    padding: 5px 20px 10px 20px;
+}
+
+.program-title{
+    margin-top:20px;
+    margin-bottom:0px;
+}
+
+.program-child-container{
+    display:flex;
+    justify-content: flex-start;
+    gap: 50px;
+}
+
+.rectangle{
+    width: 40px;
+    height: 2px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color:white;
+}
+
+.program-child-title{
+    font-size:1em;
+    font-family: "D-DIN";
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    margin:0;
+    margin-bottom: 0.6em;
+}
+
+.program-child-description{
+    font-size:1em;
+    line-height:1.2em;
+    margin:0;
+    margin-bottom:1.5em;
+}
+
+.cta{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.cta-title{
+    font-size:2em;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    margin-bottom: 1.5em;
+}
+
+.cta-button{
+    background-color: #75cfe8;
+    color:#042835;
+    letter-spacing: 0.05em;
+    padding: 16px 32px;
+    font-family: "D-Din-Bold";
+    text-decoration: none;
+}
+
+.cta-button:hover{
+    background: #042835;
+    color:#75cfe8;
+    text-decoration:none;
+}
+
+@font-face {
+    font-family: "D-Din";
+    src: url("./fonts/D-DIN.otf") format("otf")
+  }
+
+  @font-face {
+    font-family: "D-Din-Bold";
+    src: url("./fonts/D-DIN-Bold.otf") format("otf")
+  }
